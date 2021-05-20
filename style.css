@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bgimg.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+    margin-right: 100px;
+}
+ul li{ 
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.title{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    color:crimson;
+}
+.title h1{
+    color: yellow;
+    font-size: xx-large;
+    font-family: 'Segoe UI';
+}
+.title h2{
+    color: floralwhite;
+    font-size: 90%;
+    padding-left: 0px;
+}
+.icon img{
+    padding-top: 10px;
+    padding-left: 60px;
+    width: 130px;
+}
+.diff img{
+    position: absolute;
+    top:38%;
+    left: 7%;
+    width: 400px;
+}
+.plants img{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    width: 370px;
+}
+.mapouter{
+    position: absolute;
+    top: 14%;
+    left: 57%;
+}
+.working h3{
+    font-family: 'Arial';
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    bottom: 85px;
+    left: 130px;
+}
+.working p{
+    font-family: 'Arial';
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 33px;
+    left: 130px;
+}
+.address h4{
+    font-family: 'Arial';
+    font-size: 25px;
+    color: #fff;
+    font-size: 30px;
+    color: white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+    bottom: 90px;
+    left: 610px;
+}
+.address p{
+    font-family: 'Arial';
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    bottom: 35px;
+    left: 610px;
+}
+.comments p{
+    font-family: 'Arial';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 71px;
+    right: 50px;
+}
+.copy p{
+    font-family: 'Arial';
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 840px;
+    left: 630px;
+}
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+  
+  /* On mouse-over */
+.btn:hover {
+    background: #eee;
+ }
+.breeds{
+    position: absolute;
+    bottom: 200px;
+    left: 220px;
+}
+.plantstxt{
+    position: absolute;
+    bottom: 200px;
+    left: 700px;
+    font-family: Verdana;
+    font-size: 33px;
+    color:white;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+.map{
+    position: absolute;
+    bottom: 210px;
+    left: 1220px;
+    }
+  
+
